@@ -1,12 +1,18 @@
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Python venv
 venv/
-.venv/
-*.db
-*.sqlite3
+__pycache__/
+
+# Git + cache files
+.git/
 *.log
-.DS_Store
-node_modules/
+*.zip
+*.tar
+*.mp4
+*.jpg
+*.png
+*.jpeg
